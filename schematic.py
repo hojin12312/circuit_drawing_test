@@ -219,10 +219,11 @@ class Transistor(Element):
                 _circle(gx, cy, self.BR, fill="white", stroke="black")
             )
 
-        # Name label — placed right of the transistor symbol to avoid
-        # overlapping vertical wires (drain/source connections, etc.)
+        # Name label — placed below and to the right to avoid overlapping
+        # with the horizontal gate connection wire (at y=cy) and the
+        # vertical drain/source connection wires (at x=cx).
         parts.append(
-            _text(cx + self.W // 2 + 20, cy, self.name,
+            _text(cx + 50, cy + h2 + 18, self.name,
                   anchor="start", size=12)
         )
 
