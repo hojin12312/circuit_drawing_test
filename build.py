@@ -31,8 +31,8 @@ else:
     with open("index.html") as f:
         html = f.read()
     html, n = re.subn(
-        r'(commit/)([a-f0-9]{7})(["])',
-        rf'\g<1>{HASH}\g<3>',
+        r'\b[a-f0-9]{7}\b',
+        HASH,
         html
     )
     if n:
