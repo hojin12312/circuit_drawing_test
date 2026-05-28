@@ -219,10 +219,11 @@ class Transistor(Element):
                 _circle(gx, cy, self.BR, fill="white", stroke="black")
             )
 
-        # Name label
+        # Name label — placed to the right of the body to avoid overlapping
+        # vertical wires (drain/source connections, OUT node, etc.)
         parts.append(
-            _text(cx, cy + h2 + 18, self.name,
-                  anchor="middle", size=12)
+            _text(cx + self.W // 2 + 10, cy, self.name,
+                  anchor="start", size=12)
         )
 
         return "\n".join(parts)

@@ -15,14 +15,14 @@
 <line x1="266" y1="115" x2="274" y2="115" stroke="black" stroke-width="2"/>
 <line x1="266" y1="135" x2="274" y2="135" stroke="black" stroke-width="2"/>
 <circle cx="270" cy="125" r="5" fill="white" stroke="black" stroke-width="2"/>
-<text x="280" y="159" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="black">M2</text>
+<text x="308" y="125" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="black">M2</text>
 <line x1="262" y1="259" x2="298" y2="259" stroke="black" stroke-width="2"/>
 <line x1="262" y1="291" x2="298" y2="291" stroke="black" stroke-width="2"/>
 <line x1="282" y1="262" x2="282" y2="288" stroke="black" stroke-width="2"/>
 <line x1="270" y1="265" x2="270" y2="285" stroke="black" stroke-width="2"/>
 <line x1="266" y1="265" x2="274" y2="265" stroke="black" stroke-width="2"/>
 <line x1="266" y1="285" x2="274" y2="285" stroke="black" stroke-width="2"/>
-<text x="280" y="309" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="black">M1</text>
+<text x="308" y="275" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="black">M1</text>
 <path d="M 280 60 L 280 109" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round"/>
 <circle cx="280" cy="60" r="3" fill="black" stroke="none" stroke-width="2"/>
 <path d="M 280 291 L 280 360" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round"/>
