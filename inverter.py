@@ -40,8 +40,8 @@ def draw_inverter() -> Schematic:
 
     # ── Gate poly (common vertical gate signal bus) ─────────────
     POLY_X = 195
-    gate_top = pmos.drain_y - 10      # above PMOS gate
-    gate_bot = nmos.source_y + 10     # below NMOS gate
+    gate_top = pmos.cy      # PMOS gate connection (y=125)
+    gate_bot = nmos.cy      # NMOS gate connection (y=275)
     sch.wire(POLY_X, gate_top, POLY_X, gate_bot)
 
     # PMOS gate → poly (wire from gate centre)
