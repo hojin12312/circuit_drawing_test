@@ -1,3 +1,15 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Dev-only docs (not needed for GitHub Pages)
+CLAUDE.md
+AGENTS.md
+CONTINUE.md
+
+# Local build/deploy scripts
+build.py
+deploy.sh
+
+# Claude Code session data
+.claude/
